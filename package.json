@@ -1,0 +1,8 @@
+{
+  "name": "popogo-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/yeoularu/popogo-server",
+  "author": "yeoularu <yeoularu@gmail.com>",
+  "license": "MIT"
+}
