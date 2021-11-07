@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const corsOptions = {
-  origin: "https://yeoularu.github.io/popogo",
+  origin: "https://yeoularu.github.io/",
   credentials: true,
   optionsSuccessStatus: 200,
 };
