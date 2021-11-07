@@ -25,7 +25,7 @@ app.post("/", (req, res) => {
       res.writeHead(200, { "Content-Type": "text/json;charset=utf-8" });
       res.end(body);
     } else {
-      res.status(response.statusCode).end();
+      res.status(response.statusCode).end(error.message);
       console.log("error = " + response.statusCode);
     }
   });
